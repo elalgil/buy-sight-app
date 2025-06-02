@@ -2,12 +2,13 @@ svcs.sandbox.ebay.com:
     appid: ELALGILB-APP-SBX-81018be73-d999b142
     certid: SBX-1018be7348ec-ad74-4980-a5d0-8033
     devid: 139069d6-f5e6-4f6e-9fc8-3cbe51d7b9b2
-    token: v^1.1#i^1#f^0#r^1#p^3#I^3#t^Ul4xMF82OkQ5NDQzODc3OTA5MzQ2NTBBOTY2NkUxMzI2RjdDMTBEXzFfMSNFXjEyODQ=
+    token: # add you user token here
     serverurl: https://svcs.sandbox.ebay.com/services/search/FindingService/v1
 
-api.ebay.com:
-    appid: YOUR_PRODUCTION_APP_ID
-    certid: YOUR_PRODUCTION_CERT_ID
-    devid: YOUR_PRODUCTION_DEV_ID
-    token: YOUR_PRODUCTION_AUTH_TOKEN
-    serverurl: https://api.ebay.com/wsapi
+svcs.ebay.com:
+    appid: ELALGILB-APP-PRD-4f041d21c-33ffe055
+    certid: PRD-f041d21c0380-1ad1-4cc3-bf04-4033
+    devid: 139069d6-f5e6-4f6e-9fc8-3cbe51d7b9b2
+    token: # add you user token here
+    serverurl: https://svcs.ebay.com/services/search/FindingService/v1
+FooterHebrew University
