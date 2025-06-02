@@ -55,7 +55,7 @@ Each module can be tested independently and communicates via structured JSON.
 
 ## 📂 Example: Gemini to eBay Flow
 
-Inside the `examples/` folder, you'll find example JSON files showing the expected output from the Gemini module. These outputs are transformed into valid eBay search queries. For instance:
+Inside the `Core/Gemini/Schemes` folder, you'll find example JSON files showing the expected output from the Gemini module. These outputs are transformed into valid eBay search queries. For instance:
 
 ```json
 {
@@ -64,6 +64,21 @@ Inside the `examples/` folder, you'll find example JSON files showing the expect
   "budget": "medium"
 }
 
-# huji_hackathon
-29.5.25 HUJI Hackathon
+## How to run locally:
+- 1. clone the repository: git clone https://github.com/elal-gilboa/buy-sight-app.git
+- 2. pip install -r requirements.txt
+- 3. Open an Ebay developer account - create an account to receive a User's token and add it in the Core/ebay/Enteties/ebayconf.yaml , this is the configuration file to access the Ebay API.
+**Link to register**
+https://developer.ebay.com/api-docs/static/oauth-ui-tokens.html#:~:text=the%20Developer%20Portal%3A-,Navigate%20to%20your%20Application%20Keys%20page%20on%20the%20eBay%20Developer,click%20the%20sign%2Din%20button.
+
+
+## 🌐 Future Plans
+- Add support for more eCommerce platforms (e.g., Amazon, Etsy)
+- Enhance multilingual support
+- Allow users to pin and save product sets
+- Integrate image generation more deeply into user experience
+
+## huji_hackathon
+29.5.25 HUJI Hackathon - Hebrew University Computer Science School's annual Hackathon
+This year's Hachathon's subject was AI future in the next 100 years
 
