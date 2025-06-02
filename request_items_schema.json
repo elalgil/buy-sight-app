@@ -1,0 +1,49 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "title": {
+        "type": "string",
+        "maxLength": 256
+      },
+      "min_price": {
+        "type": "number"
+      },
+      "max_price": {
+        "type": "number"
+      },
+      "color": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "enum": [
+            "Black", "White", "Gray", "Silver", "Red", "Blue", "Green",
+            "Yellow", "Pink", "Purple", "Orange", "Brown", "Beige",
+            "Gold", "Clear", "Transparent", "Multicolor"
+          ]
+        }
+      },
+      "brand": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "maxLength": 256
+        }
+      },
+      "query": {
+        "type": "string",
+        "maxLength": 256
+      },
+      "rating": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "title",
+      "min_price",
+      "max_price",
+      "query"
+    ]
+  }
+}
