@@ -71,7 +71,7 @@ Example:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/elal-gilboa/buy-sight-app.git
+   git clone https://github.com/elalgil/buy-sight-app.git
    ```
 2. **Install dependencies:**
    ```bash
