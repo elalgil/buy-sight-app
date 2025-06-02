@@ -64,6 +64,8 @@ Inside the `Core/Gemini/Schemes` folder, you'll find example JSON files showing 
   "budget": "medium"
 }
 
+---
+
 ## How to run locally:
 - 1. clone the repository: git clone https://github.com/elal-gilboa/buy-sight-app.git
 - 2. pip install -r requirements.txt
@@ -71,12 +73,15 @@ Inside the `Core/Gemini/Schemes` folder, you'll find example JSON files showing 
 **Link to register**
 https://developer.ebay.com/api-docs/static/oauth-ui-tokens.html#:~:text=the%20Developer%20Portal%3A-,Navigate%20to%20your%20Application%20Keys%20page%20on%20the%20eBay%20Developer,click%20the%20sign%2Din%20button.
 
+---
 
 ## 🌐 Future Plans
 - Add support for more eCommerce platforms (e.g., Amazon, Etsy)
 - Enhance multilingual support
 - Allow users to pin and save product sets
 - Integrate image generation more deeply into user experience
+
+---
 
 ## huji_hackathon
 29.5.25 HUJI Hackathon - Hebrew University Computer Science School's annual Hackathon
