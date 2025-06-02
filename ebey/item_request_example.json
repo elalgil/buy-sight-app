@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Wireless Bluetooth Headphones",
+    "min_price": 29.99,
+    "max_price": 59.99,
+    "query": "noise cancelling headphones",
+    "color": ["Black", "Blue"],
+    "brand": ["Sony", "Bose"],
+    "rating": 4.75
+  },
+  {
+    "title": "Smartphone Case",
+    "min_price": 5.00,
+    "max_price": 15.50,
+    "query": "durable case for iPhone",
+    "color": ["Red", "Transparent"],
+    "brand": ["Spigen"],
+    "rating": 4.20
+  }
+]
